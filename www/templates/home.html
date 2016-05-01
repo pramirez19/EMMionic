@@ -1,0 +1,18 @@
+<ion-view title="Home" id="page1">
+    <ion-content padding="true" class="has-header">
+        <div>
+            <img src="img/CeEqCK4lTba1gqswBAZP_cropped-email-ministry-logo.png" width="100%" height="auto" style="display: block; margin-left: auto; margin-right: auto;">
+        </div>
+        <div id="home-markdown1" style="color:#000000;">
+            <p>Some friendly
+                <strong>markdown</strong>
+            </p>
+            <button class="button button-primary button-block " ng-click="checkForUpdates()">
+              Check for Updates
+            </button>
+            <button class="button button-stable button-block button-pulse" ng-if="hasUpdate" ng-click="doUpdate()">
+              Download Update
+            </button>
+        </div>
+    </ion-content>
+</ion-view>
